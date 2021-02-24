@@ -13,9 +13,9 @@ if (! defined('WPINC')) {
 
 register_activation_hook(__FILE__, function () {
     // to update these options, go to /wp-admin/options.php
-    add_option('bmg:Gh-token', '86638f29091adfc52ada20d9e17f02e4');
-    add_option('bmg:Gh-public-key', 'eb1d17f06697d5cb23813ce93be1789d');
-    add_option('bmg:security_token', '7z23I0aZbvkAiqvALuIoPno49uJuN3iB');
+    add_option('bmg:Gh-token', '4cfcc620c11b4a42bbf1183e47d5776f');
+    add_option('bmg:Gh-public-key', ''be8e7cc5cd9de876d4ea5598c537abb6);
+    add_option('bmg:security_token', '05c36f759c403ac0fb3d437790e2abf5');
 });
 
 // register rest api routes
